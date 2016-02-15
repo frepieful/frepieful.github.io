@@ -1,0 +1,194 @@
+.logo2{
+	background: url("../img/heart.png ");
+	color:#fff;
+	margin:0px;
+	padding:200px 0 260px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 122px;
+  color: #ee6e73;
+  font-family: 'Nunito', cursive;
+  font-size: 24px;
+}
+.page-title{
+	font-family: 'Clicker Script', cursive;
+}
+.chip{
+	background-color: #FFDBE3;
+}
+.comentarios {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    border: 5px solid #5a8f00;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.comentarios.left {
+  margin-left:30px;
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.comentarios:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#5a8f00 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.comentarios:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:19px 13px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.comentarios.left:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:-21px; /* value = - border-left-width - border-right-width */
+  border-width:9px 21px 9px 0;
+  border-color:transparent #fff;
+}
+/* CSS talk bubble */
+.talk-bubble {
+	padding: 15px;
+	margin: 15px 15px 8px 15px;
+  display: inline-block;
+  position: relative;
+	height: auto;
+	background-color: #FFDBE3;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 18px -2px rgba(194,161,173,1);
+-moz-box-shadow: 10px 10px 18px -2px rgba(194,161,173,1);
+box-shadow: 10px 10px 18px -2px rgba(194,161,173,1);
+}
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #FFDBE3 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #FFDBE3 transparent transparent transparent;
+}
+/* Right triangle, left side slightly down */
+.tri-right.border.left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+.time_comentarios{
+	padding-left: 3px;
+}
+.leftComment{
+	margin-top: 25px;
+}
+.movie_media{
+	font-size: 30px;
+}
+.titleArticle{
+	margin-bottom: 0px;
+}
+.time{
+	font-family: cursive;
+}
+.textValentine{
+	margin-top:30px;
+}
+.textGifts{
+	background: #FFDBE3;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 42px 2px rgba(214,164,183,1);
+-moz-box-shadow: 10px 10px 42px 2px rgba(214,164,183,1);
+box-shadow: 10px 10px 42px 2px rgba(214,164,183,1);
+border-radius: 34px 34px 34px 34px;
+-moz-border-radius: 34px 34px 34px 34px;
+-webkit-border-radius: 34px 34px 34px 34px;
+border: 0px solid #000000; 
+color: #880e4f;
+margin: 10px;
+}
+.titleGifts{
+	text-shadow: 2px 2px #880e4f;
+}
+#nav-mobile{
+	background: url("../img/nav_heart.png ");
+	background-size: 240px 40%;
+	background-color: white;
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+}
+.footer-copyright.container.p{
+	color: #fce4ec;
+}
+@media only screen and (min-width: 900px ){
+    .leftComment{
+	padding-left: 200px;
+}
+    .movie_media{
+	font-size: 80px;
+}.movie_media{
+	font-size: 80px;
+}
+}
+
+
