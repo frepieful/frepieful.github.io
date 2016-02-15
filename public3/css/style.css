@@ -177,6 +177,9 @@ margin: 10px;
     background-repeat: no-repeat;
     background-position: center bottom; 
 }
+.modalColor{
+	color: white;
+}
 .footer-copyright.container.p{
 	color: #fce4ec;
 }
